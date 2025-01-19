@@ -1,0 +1,2021 @@
+@media only screen and (min-width:991px) and (max-width:1199px) {
+    .skill-box {
+        padding: 10px;
+    }
+
+    .skill-font {
+        font-size: 1.5rem;
+
+    }
+
+    .aducat-pic {
+        margin-top: 20px;
+    }
+    
+
+}
+@media only screen and (min-width:768px) and (max-width:768px){
+    .pera-affiliate{
+        margin-top: 10px;
+    }
+    .skill-pic{
+        margin-bottom: 5px;
+    }
+    
+    .head-1, .head-2, .i-m, .s-e{
+        position: relative;
+        top: 40px;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    
+    .skill-box {
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+    }
+
+    @keyframes skills {
+        0% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(7%);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .skill-font {
+        font-size: 1.2rem;
+
+
+    }
+
+    .aducat-pic {
+        margin-top: 25px;
+    }
+    .skill-pic{
+        margin-top: 10px;
+    }
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    
+
+    /* .landing-page-container {
+        width: 480px;
+        height: 350px;
+        padding: 10px;
+        border: 2px solid white;
+    } */
+    .landing-page-css{
+        background-image: linear-gradient(to right, red , rgb(37, 37, 3));
+        width: 480px;
+        height: 350px;
+        padding: 2px;
+        border: 1px solid white;
+        border-radius: 1rem;
+        filter: contrast(150%);
+        
+     }
+    
+}
+@media only screen and (min-width:600px) and (max-width:768px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    
+    .skill-box {
+        padding: 3px;
+        display: flex;
+        justify-content: center;
+        border-radius: 1rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+        
+    }
+    .skill-font {
+        font-size: 0.8rem;
+
+
+    }
+  
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 20px;
+        display: inline;
+    
+
+    }
+    .skill-pic{
+        margin-top: 15px;
+        padding: 10px;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+        
+        
+    }
+    /* .landing-page-container {
+        width: 550px;
+        
+        
+    } */
+    .landing-main{
+        height: 250px;
+    }
+    
+    .affiliate-text-market{
+        display: none;
+        
+    
+
+    }
+    .pera-affiliate{
+        font-size: 15px;
+        position: relative;
+        top: 10px;
+        
+
+    }
+    
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .fa-down-long{
+        display: none;
+    }
+    .linkedin-btn{
+        position: absolute;
+        top: 0;
+        margin: 7px;
+        
+        
+    }
+    .navbar-collapse{
+        height: 30px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+    
+}
+@media only screen and (min-width:481px) and (max-width:600px){
+    
+    .skill-box {
+        padding: 3px;
+        display: flex;
+        justify-content: center;
+        border-radius: 1rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+        
+    }
+    .skill-font {
+        font-size: 0.8rem;
+
+
+    }
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 20px;
+        display: inline;
+    
+
+    }
+    .custom-myproject-css, .a-b, .aducation-container{
+        height: 40px;
+        
+    
+    }
+    .my-project-text {
+        position: relative;
+        bottom: 19px;
+    }
+    .my-skills{
+        position: relative;
+        bottom: 15px;
+    }
+    .my-addction-text{
+        position: relative;
+        bottom: 16px;
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .skill-pic{
+        margin-top: 15px;
+        padding: 10px;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+    }
+    
+    .affiliate-text-market{
+        position: relative;
+        bottom: 30px;
+        display: none;
+    }
+    .pera-affiliate{
+        position: relative;
+        bottom: 25px;
+       
+    }
+    .live-demo{
+        position: relative;
+        bottom: 30px;
+    }
+    .landing-main{
+        height: 230px;
+    }
+    .custom-header-css{
+        height: 550px;
+    }
+    
+    .main-heading{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .linkedin-btn{
+        position: absolute;
+        top: 0;
+        margin: 7px;
+        
+        
+    }
+    .navbar-collapse{
+        height: 20px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:481px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .my-project-text {
+        position: relative;
+        bottom: 15px;
+    }
+    
+    .my-skills{
+        position: relative;
+        bottom: 13px;
+    }
+    .my-addction-text{
+        position: relative;
+        bottom: 10px;
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .skill-pic{
+        margin-top: 30px;
+        padding: 0;
+        border: 1px solid white;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+        padding: 0;
+    }
+    
+    .affiliate-text-market{
+        position: relative;
+        bottom: 30px;
+        font-size: 20px;
+        display: none;
+    }
+    .pera-affiliate{
+        position: relative;
+        bottom: 20px;
+        font-size: 12px;
+    }
+    .live-demo{
+        position: relative;
+        bottom: 30px;
+        padding: 5px;
+        border-radius: 1rem;
+        font-size: 10px;
+        
+    }
+    .landing-main{
+        height: 230px;
+    }
+    .custom-header-css{
+        height: 550px;
+    }
+    .hi-iam{
+        font-size: 18px;
+    }
+    .custom-profile-css{
+        padding: 2px;
+        
+        
+    }
+    .main-heading{
+        font-size: 9px;
+        
+    }
+    .linkedin-btn{
+        position: relative;
+        bottom: 80px;
+        padding: 5px;
+
+        
+        
+    }
+    .navbar-collapse{
+        height: 20px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+    .skill-box {
+        padding: 3px;
+        border-radius: 0.5rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+        
+    }
+    .skill-font {
+        font-size: 0.5rem;
+        
+        
+
+
+    }
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 12px;
+        font-weight: bold;
+        
+    
+
+    }
+    .custom-myproject-css, .a-b, .aducation-container{
+        height: 40px;
+        
+    
+    }
+    .my-project-text {
+        position: relative;
+        bottom: 19px;
+    }
+    .aducat-pic{
+        margin-top: 25px;
+        border: 1px solid white;
+        background-color: rgb(255, 115, 0);
+    }
+    .landing-page-container{
+        object-fit: fill;
+        height: 200px;
+    }
+    hr{
+        display: none;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:400px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .my-skills{
+        position: relative;
+        bottom: 15px;
+    }
+    .my-addction-text{
+        position: relative;
+        bottom: 16px;
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .skill-pic{
+        margin-top: 30px;
+        padding: 0;
+        border: 1px solid white;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+        padding: 0;
+    }
+    
+    .affiliate-text-market{
+        position: relative;
+        bottom: 30px;
+        font-size: 20px;
+        display: none;
+    }
+    .pera-affiliate{
+        position: relative;
+        bottom: 20px;
+        font-size: 11px;
+        
+    }
+    .live-demo{
+        position: relative;
+        bottom: 35px;
+        padding: 5px;
+        border-radius: 1rem;
+        font-size: 8px;
+        
+    }
+    .landing-main{
+        height: 230px;
+    }
+    .custom-header-css{
+        height: 550px;
+    }
+    .hi-iam{
+        font-size: 18px;
+    }
+    .custom-profile-css{
+        padding: 2px;
+        
+        
+    }
+    .main-heading{
+        font-size: 7.5px;
+        
+    }
+    .linkedin-btn{
+        position: relative;
+        bottom: 80px;
+        padding: 5px;
+
+        
+        
+    }
+    .navbar-collapse{
+        height: 20px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+    .skill-box {
+        padding: 3px;
+        border-radius: 0.5rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+        
+    }
+    .skill-font {
+        font-size: 0.5rem;
+        
+        
+
+
+    }
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 12px;
+        font-weight: bold;
+        
+    
+
+    }
+    .custom-myproject-css, .a-b, .aducation-container{
+        height: 40px;
+        
+    
+    }
+    .my-project-text {
+        position: relative;
+        bottom: 19px;
+    }
+    .aducat-pic{
+        margin-top: 25px;
+        border: 1px solid white;
+        background-color: rgb(255, 115, 0);
+    }
+    .landing-page-container{
+        object-fit: fill;
+        height: 200px;
+    }
+    hr{
+        display: none;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:506px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .skill-box {
+        padding: 3px;
+        display: flex;
+        justify-content: center;
+        border-radius: 1rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+        
+    }
+    .skill-font {
+        font-size: 0.8rem;
+
+
+    }
+  
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 20px;
+        display: inline;
+    
+
+    }
+    .skill-pic{
+        margin-top: 15px;
+        padding: 10px;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+        
+        
+    }
+    /* .landing-page-container {
+        width: 550px;
+        
+        
+    } */
+    .landing-main{
+        height: 250px;
+    }
+    
+    .affiliate-text-market{
+        display: none;
+        
+    
+
+    }
+    .pera-affiliate{
+        font-size: 12px;
+        position: relative;
+        top: 10px;
+        
+
+    }
+    .live-demo{
+        position: relative;
+        top: 20px;
+
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .fa-down-long{
+        display: none;
+    }
+    .linkedin-btn{
+        position: absolute;
+        top: 0;
+        margin: 7px;
+        
+        
+    }
+    .navbar-collapse{
+        height: 30px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+    
+}
+@media only screen and (min-width:481px) and (max-width:492px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .skill-pic{
+        position: relative;
+        top: 40px;
+    }
+    .navbar-collapse{
+        height: 10px;
+    }
+}
+
+@media only screen and (min-width:482px) and (max-width:600px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .skill-box {
+        padding: 3px;
+        display: flex;
+        justify-content: center;
+        border-radius: 1rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+        
+    }
+    .skill-font {
+        font-size: 0.8rem;
+
+
+    }
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 20px;
+        display: inline;
+    
+
+    }
+    .custom-myproject-css, .a-b, .aducation-container{
+        height: 40px;
+        
+    
+    }
+    .my-project-text {
+        position: relative;
+        bottom: 19px;
+    }
+    .my-skills{
+        position: relative;
+        bottom: 15px;
+    }
+    .my-addction-text{
+        position: relative;
+        bottom: 16px;
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .skill-pic{
+        margin-top: 15px;
+        padding: 10px;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+    }
+    
+    .affiliate-text-market{
+        position: relative;
+        bottom: 30px;
+        display: none;
+    }
+    .pera-affiliate{
+        position: relative;
+        bottom: 25px;
+       
+    }
+    .live-demo{
+        position: relative;
+        bottom: 30px;
+    }
+    .landing-main{
+        height: 230px;
+    }
+    .custom-header-css{
+        height: 550px;
+    }
+    
+    .main-heading{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .linkedin-btn{
+        position: absolute;
+        top: 0;
+        margin: 7px;
+        
+        
+    }
+    .navbar-collapse{
+        height: 20px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+}
+@media only screen and (min-width:400px) and (max-width:480px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .my-skills{
+        position: relative;
+        bottom: 15px;
+    }
+    .my-addction-text{
+        position: relative;
+        bottom: 16px;
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .skill-pic{
+        margin-top: 30px;
+        padding: 0;
+        border: 1px solid white;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+        padding: 0;
+    }
+    
+    .affiliate-text-market{
+        position: relative;
+        bottom: 30px;
+        font-size: 20px;
+        display: none;
+    }
+    .pera-affiliate{
+        position: relative;
+        bottom: 20px;
+        font-size: 12px;
+    }
+    .live-demo{
+        position: relative;
+        bottom: 30px;
+        padding: 5px;
+        border-radius: 1rem;
+        font-size: 10px;
+        
+    }
+    .landing-main{
+        height: 230px;
+    }
+    .custom-header-css{
+        height: 550px;
+    }
+    .hi-iam{
+        font-size: 18px;
+    }
+    .custom-profile-css{
+        padding: 2px;
+        
+        
+    }
+    .main-heading{
+        font-size: 9px;
+        
+    }
+    .linkedin-btn{
+        position: relative;
+        bottom: 80px;
+        padding: 5px;
+
+        
+        
+    }
+    .navbar-collapse{
+        height: 20px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+    .skill-box {
+        padding: 3px;
+        border-radius: 0.5rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+        
+    }
+    .skill-font {
+        font-size: 0.5rem;
+        
+        
+
+
+    }
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 12px;
+        font-weight: bold;
+        
+    
+
+    }
+    .custom-myproject-css, .a-b, .aducation-container{
+        height: 40px;
+        
+    
+    }
+    .my-project-text {
+        position: relative;
+        bottom: 19px;
+    }
+    .aducat-pic{
+        margin-top: 25px;
+        border: 1px solid white;
+        background-color: rgb(255, 115, 0);
+    }
+    .landing-page-container{
+        object-fit: fill;
+        height: 200px;
+    }
+    hr{
+        display: none;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:486px){
+    .live-demo{
+        font-size: 10px;
+    }
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+}
+@media only screen and (min-width:576px) and (max-width:600px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .pera-affiliate{
+        position: relative;
+        top: 25px;
+        font-size: 13px;
+
+    }
+    .live-demo{
+        position: relative;
+        top: 20px;
+    }
+}
+
+
+@media only screen and (min-width:400px) and (max-width:481px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .my-skills{
+        position: relative;
+        bottom: 15px;
+    }
+    .my-addction-text{
+        position: relative;
+        bottom: 16px;
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .skill-pic{
+        margin-top: 30px;
+        padding: 0;
+        border: 1px solid white;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+        padding: 0;
+    }
+    
+    .affiliate-text-market{
+        position: relative;
+        bottom: 30px;
+        font-size: 20px;
+        display: none;
+    }
+    .pera-affiliate{
+        position: relative;
+        bottom: 20px;
+        font-size: 12px;
+    }
+    .live-demo{
+        position: relative;
+        bottom: 30px;
+        padding: 5px;
+        border-radius: 1rem;
+        font-size: 10px;
+        
+    }
+    .landing-main{
+        height: 230px;
+    }
+    .custom-header-css{
+        height: 550px;
+    }
+    .hi-iam{
+        font-size: 18px;
+    }
+    .custom-profile-css{
+        padding: 2px;
+        
+        
+    }
+    .main-heading{
+        font-size: 9px;
+        
+    }
+    .linkedin-btn{
+        position: relative;
+        bottom: 80px;
+        padding: 5px;
+
+        
+        
+    }
+    .navbar-collapse{
+        height: 20px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+    .skill-box {
+        padding: 3px;
+        border-radius: 0.5rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+        
+    }
+    .skill-font {
+        font-size: 0.5rem;
+        
+        
+
+
+    }
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 12px;
+        font-weight: bold;
+        
+    
+
+    }
+    .custom-myproject-css, .a-b, .aducation-container{
+        height: 40px;
+        
+    
+    }
+    .my-project-text {
+        position: relative;
+        bottom: 19px;
+    }
+    .aducat-pic{
+        margin-top: 25px;
+        border: 1px solid white;
+        background-color: rgb(255, 115, 0);
+    }
+    .landing-page-container{
+        object-fit: fill;
+        height: 200px;
+    }
+    hr{
+        display: none;
+    }
+}
+@media only screen and (min-width:361px) and (max-width:400px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .my-skills{
+        position: relative;
+        bottom: 13px;
+    }
+    .my-addction-text{
+        position: relative;
+        bottom: 14px;
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .skill-pic{
+        margin-top: 30px;
+        padding: 0;
+        border: 1px solid white;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+        padding: 0;
+    }
+    
+    .affiliate-text-market{
+        position: relative;
+        bottom: 30px;
+        font-size: 20px;
+        display: none;
+    }
+    .pera-affiliate{
+        position: relative;
+        bottom: 20px;
+        font-size: 11px;
+        
+    }
+    .live-demo{
+        position: relative;
+        bottom: 35px;
+        padding: 5px;
+        border-radius: 1rem;
+        font-size: 8px;
+        
+    }
+    .landing-main{
+        height: 230px;
+    }
+    .custom-header-css{
+        height: 550px;
+    }
+    .hi-iam{
+        font-size: 18px;
+    }
+    .custom-profile-css{
+        padding: 2px;
+        border-radius: 4rem;
+        position: relative;
+        bottom: 25px;
+        
+        
+    }
+    .main-heading{
+        font-size: 7.5px;
+        
+    }
+    .linkedin-btn{
+        position: relative;
+        bottom: 80px;
+        padding: 5px;
+
+        
+        
+    }
+    .navbar-collapse{
+        height: 20px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+    .skill-box {
+        padding: 3px;
+        border-radius: 0.5rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+        
+    }
+    .skill-font {
+        font-size: 0.5rem;
+        
+        
+
+
+    }
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 12px;
+        font-weight: bold;
+        
+    
+
+    }
+    .custom-myproject-css, .a-b, .aducation-container{
+        height: 40px;
+        
+    
+    }
+    .my-project-text {
+        position: relative;
+        bottom: 16px;
+    }
+    .aducat-pic{
+        margin-top: 45px;
+        border: 1px solid white;
+        background-color: rgb(255, 115, 0);
+    }
+    .landing-page-container{
+        object-fit: fill;
+        height: 200px;
+    }
+    hr{
+        display: none;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:506px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .skill-box {
+        padding: 3px;
+        display: flex;
+        justify-content: center;
+        border-radius: 1rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+    }
+    .skill-font {
+        font-size: 0.8rem;
+
+
+    }
+  
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 20px;
+        display: inline;
+    
+
+    }
+    .skill-pic{
+        margin-top: 15px;
+        padding: 10px;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+        
+        
+    }
+    /* .landing-page-container {
+        width: 550px;
+        
+        
+    } */
+    .landing-main{
+        height: 250px;
+    }
+    
+    .affiliate-text-market{
+        display: none;
+        
+    
+
+    }
+    .pera-affiliate{
+        font-size: 12px;
+        position: relative;
+        top: 10px;
+        
+
+    }
+    .live-demo{
+        position: relative;
+        top: 20px;
+
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .fa-down-long{
+        display: none;
+    }
+    .linkedin-btn{
+        position: absolute;
+        top: 0;
+        margin: 7px;
+        
+        
+    }
+    .navbar-collapse{
+        height: 30px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+    
+}
+@media only screen and (min-width:481px) and (max-width:481px){
+
+
+.linkedin-btn{
+    display: none;
+}
+}
+@media only screen and (min-width:481px) and (max-width:600px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .skill-box {
+        padding: 3px;
+        display: flex;
+        justify-content: center;
+        border-radius: 1rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+        
+    }
+    .skill-font {
+        font-size: 0.8rem;
+
+
+    }
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 20px;
+        display: inline;
+    
+
+    }
+    .custom-myproject-css, .a-b, .aducation-container{
+        height: 40px;
+        
+    
+    }
+    .my-project-text {
+        position: relative;
+        bottom: 19px;
+    }
+    .my-skills{
+        position: relative;
+        bottom: 15px;
+    }
+    .my-addction-text{
+        position: relative;
+        bottom: 16px;
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .skill-pic{
+        margin-top: 15px;
+        padding: 10px;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+    }
+    
+    .affiliate-text-market{
+        position: relative;
+        bottom: 30px;
+        display: none;
+    }
+    .pera-affiliate{
+        position: relative;
+        bottom: 25px;
+       
+    }
+    .live-demo{
+        position: relative;
+        bottom: 30px;
+    }
+    .landing-main{
+        height: 230px;
+    }
+    .custom-header-css{
+        height: 550px;
+    }
+    
+    .main-heading{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .linkedin-btn{
+        position: absolute;
+        top: 0;
+        margin: 7px;
+        
+        
+    }
+    .navbar-collapse{
+        height: 20px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+}
+@media only screen and (min-width:332px) and (max-width:360px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    
+    .my-skills{
+        position: relative;
+        bottom: 13px;
+    }
+    .my-addction-text{
+        position: relative;
+        bottom: 14px;
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .skill-pic{
+        margin-top: 40px;
+        padding: 0;
+        border: 1px solid white;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+        padding: 0;
+    }
+    
+    .affiliate-text-market{
+        position: relative;
+        bottom: 30px;
+        font-size: 20px;
+        display: none;
+    }
+    .pera-affiliate{
+        position: relative;
+        bottom: 15px;
+        font-size: 9.5px;
+        
+        
+    }
+    .live-demo{
+        position: relative;
+        bottom: 25px;
+        padding: 3px;
+        border-radius: 1rem;
+        font-size: 10px;
+        font-size: 8px;
+        
+    }
+    .landing-main{
+        height: 230px;
+    }
+    .custom-header-css{
+        height: 550px;
+    }
+    .hi-iam{
+        font-size: 14px;
+    }
+    .front-end-text{
+        font-size: 12px;
+    }
+    .custom-profile-css{
+        padding: 2px;
+        border-radius: 2rem;
+        
+        
+    }
+    .main-heading{
+        font-size: 8.5px;
+        
+    }
+    .linkedin-btn{
+        position: relative;
+        bottom: 50px;
+        padding: 5px;
+        font-size: 5px;
+        border: 1px solid white;
+
+        
+        
+    }
+    .navbar-collapse{
+        height: 20px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+    .skill-box {
+        padding: 3px;
+        border-radius: 0.5rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        border: 1px solid black;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+
+        
+    }
+    .skill-font {
+        font-size: 0.4rem;
+        font-weight: bold;
+        
+        
+
+
+    }
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 12px;
+        font-weight: bold;
+        
+    
+
+    }
+    .custom-myproject-css, .a-b, .aducation-container{
+        height: 40px;
+        
+    
+    }
+    .my-project-text {
+        position: relative;
+        bottom: 16px;
+    }
+    .aducat-pic{
+        margin-top: 55px;
+        border: 1px solid white;
+        background-color: rgb(255, 115, 0);
+    }
+    .landing-page-container{
+        object-fit: fill;
+        height: 200px;
+    }
+    hr{
+        display: none;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:332px){
+    .text-decorat{
+        text-decoration: none;
+        
+        
+    }
+    .text-decorate::before{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 61, 247);
+        height: 3px;
+        width: 0;
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+    .text-decorate:hover::before{
+        width: 50%;
+    }
+    
+    .my-skills{
+        position: relative;
+        bottom: 15px;
+    }
+    .my-addction-text{
+        position: relative;
+        bottom: 16px;
+    }
+    .pagination{
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+    .skill-pic{
+        margin-top: 45px;
+        padding: 0;
+        border: 1px solid white;
+        
+    }
+    .landing-page-css{
+        height: 200px;
+        padding: 0;
+    }
+    
+    .affiliate-text-market{
+        position: relative;
+        bottom: 30px;
+        font-size: 20px;
+        display: none;
+    }
+    .pera-affiliate{
+        position: relative;
+        bottom: 15px;
+        font-size: 9px;
+        
+        
+    }
+    .live-demo{
+        position: relative;
+        bottom: 25px;
+        padding: 3px;
+        border-radius: 1rem;
+        font-size: 9px;
+        font-size: 8px;
+
+        
+    }
+    .landing-main{
+        height: 230px;
+    }
+    .custom-header-css{
+        height: 550px;
+    }
+    .hi-iam{
+        font-size: 14px;
+    }
+    .front-end-text{
+        font-size: 12px;
+    }
+    .custom-profile-css{
+        padding: 2px;
+        border-radius: 2rem;
+        
+        
+    }
+    .main-heading{
+        font-size: 8.5px;
+        
+    }
+    .linkedin-btn{
+        position: relative;
+        bottom: 50px;
+        padding: 5px;
+        font-size: 5px;
+
+        
+        
+    }
+    .navbar-collapse{
+        height: 20px;
+    }
+    .custom-resume-btn-css{
+        display: none;
+
+    }
+    .skill-box {
+        padding: 3px;
+        border-radius: 0.5rem;
+        align-items: center;
+        animation-name: skills;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        border: 1px solid black;
+        box-shadow: 1px 5px 5px rgba(255, 11, 202, 0.918);
+        
+
+        
+    }
+    .skill-font {
+        font-size: 0.4rem;
+        font-weight: bold;
+        
+        
+
+
+    }
+    .experience{
+        display: none;
+    }
+    .fresher, .request{
+        display: none;
+        
+
+    }
+    .head-1, .head-2{
+        font-size: 12px;
+        font-weight: bold;
+        
+    
+
+    }
+    .custom-myproject-css, .a-b, .aducation-container{
+        height: 40px;
+        
+    
+    }
+    .my-project-text {
+        position: relative;
+        bottom: 19px;
+    }
+    .aducat-pic{
+        margin-top: 70px;
+        border: 1px solid white;
+        background-color: rgb(255, 115, 0);
+    }
+    .landing-page-container{
+        object-fit: fill;
+        height: 200px;
+    }
+    hr{
+        display: none;
+    }
+}

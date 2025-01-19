@@ -1,0 +1,317 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-image: linear-gradient(to right,#162952, rgb(255, 0, 0)); */
+    background-color: #14264e;
+}
+
+.custom-header-css{
+    /* background-color: #162952; */
+    /* background-color: #14264e; */
+    /* background-image: linear-gradient(to right,rgb(255, 0, 0),#162952 );        */
+    background-color: #592941;
+    
+}
+.custom-profile-css{
+    border: 2px solid rgb(208, 255, 0);
+    box-shadow: 10px 10px 20px rgb(240, 196, 2);
+    border-radius: 7rem;
+    width: 250px;
+    height: 300px;
+    float: right;
+    filter: contrast(120%)
+    brightness(150%);
+    position: relative;
+    animation-name: profile;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+
+    
+}
+@keyframes profile {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(5%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.custom-resume-btn-css, .live-demo{
+    background-color: rgb(208, 255, 0);
+    font-weight: 900;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0,0.5);
+    
+    
+}
+.custom-resume-btn-css:hover{
+    border: 1px solid white;
+    
+}
+.live-demo:hover{
+    border: 1px solid white;
+}
+.custom-logo-css{
+    color: rgb(208, 255, 0);
+    text-decoration: none;
+    text-shadow: 10px 10px 20px rgb(0, 0, 0,0.5);
+    font-family: monospace;
+    /* letter-spacing: 1px; */
+    
+    
+
+}
+.custom-logo-css:hover{
+    color: rgb(208, 255, 0);
+}
+.navbar-nav{
+    background-color: #0d2a16;
+    padding: 5px;
+    border: 1px solid rgb(172, 233, 5);
+    border-radius: 1rem;
+    
+}
+.custom-myproject-css, .a-b, .aducation-container{
+    /* background-color: #0b2413; */
+    /* background-color: #52B788; */
+    /* background-color: #2e5f47; */
+    border-bottom: 1px solid rgb(172, 233, 5);
+    border-top: 1px solid rgb(172, 233, 5);
+    background-image: linear-gradient(to right,#244b38,#10db79);
+    font-family: cursive;
+    
+
+}
+.landing-page-css{
+   background-image: linear-gradient(to right, red , rgb(37, 37, 3));
+   width: 480px;
+   height: 350px;
+   padding: 10px;
+   border: 2px solid white;
+   border-radius: 1rem;
+   filter: contrast(150%);
+   
+}
+/* .landing-page-container{
+    width: 480px;
+    height: 350px;
+    object-fit: fill;
+} */
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.custom-skills-cards{
+    background-color: #592941;
+    /* background-color: red; */
+    border-radius: 1rem;
+    border: 1px solid white;
+    padding: 10px;
+    flex: 1 1 150px;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+}
+.custom-skills-cards:hover{
+    background-color:rgb(53, 65, 3);;
+    
+    
+}
+.linkedin-btn{
+    border-radius: 4rem;
+    background-color:rgb(208, 255, 0);
+    color: black;
+    border: none;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0,0.5);
+    
+
+}
+.linkedin-btn:hover{
+    border: 2px solid white;
+}
+
+/* .linkedin-btn:visited{
+    background-color:rgb(208, 255, 0);
+    color: black;
+} */
+.fa-handshake-simple{
+    color: rgb(243, 161, 8);
+}
+.fa-house{
+    color: red;
+}
+.fa-diagram-project{
+    color: rgb(224, 192, 9);
+}
+.fa-address-book{
+    color: rgb(12, 238, 4);
+}
+.fa-address-card{
+    color: aqua;
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-file{
+    color: rgb(180, 84, 15);
+}
+.fa-globe{
+    color: blue;
+}
+.affiliate-text-market{
+    font-family: serif;
+    font-weight: 800;
+}
+.pera-affiliate{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.fa-html5{
+    color: rgb(255, 38, 0);
+    font-size: 30px;
+}
+.fa-css3-alt{
+    color: rgb(68, 68, 241);
+}
+.fa-js{
+    color: rgb(53, 40, 4);
+}
+.fa-bootstrap{
+    color:rgb(87, 0, 128);
+}
+/* .img-skills{
+    
+    
+} */
+.skill-pic{
+    height: auto;
+    padding: 20px;
+    
+
+
+    
+}
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.skill-box{
+    text-align: center;
+    border: 1px solid white;
+    color: black;
+    border-radius: 4rem;
+    padding: 15px;
+    display: grid;
+    margin: 5px;
+    background-color: rgb(185, 224, 8);
+    animation-name: skills;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    box-shadow: 20px 20px 20px rgba(206, 14, 164, 0.918);
+
+}
+@keyframes skills {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/* .skill-box1{
+    background-color: red;
+}
+.skill-box2{
+    background-color: rgb(221, 221, 5);
+}
+.skill-box3{
+    background-color: green;
+}
+.skill-box4{
+    background-color: purple;
+}
+.skill-box5{
+    background-color: blue;
+}
+.skill-box6{
+    background-color: palevioletred;
+}
+.skill-box7{
+    background-color: orangered;
+}
+.skill-box8{
+    background-color: dodgerblue;
+} */
+.experience{
+    background-image: linear-gradient(to right,#244b38,#10db79);
+    border-bottom: 1px solid rgb(172, 233, 5);
+    border-top: 1px solid rgb(172, 233, 5);
+}
+footer{
+    background-color: #592941;
+    border-top: 1px solid rgb(172, 233, 5);
+    
+}
+.end-footer{
+    background-color: #0d2a16;
+    border-top: 1px solid rgb(172, 233, 5);
+    
+    
+}
+.fa-square-whatsapp{
+    color: green;
+}
+.fa-envelope{
+    color: palevioletred;
+}
+.fa-square-instagram{
+    color: rgb(255, 29, 217);
+}
+.skill-font{
+    font-size: 1.75rem;
+}
+.aducat-pic{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    filter: contrast(150%);
+}
+.media-pic1{
+    display: none;
+}
+.skill-pic{
+    filter: contrast(150%);
+    
+}
+.secc-5{
+    padding: 50px;
+}    
+.text-decorat{
+    text-decoration: none;
+    
+    
+}
+.text-decorate::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(61, 61, 247);
+    height: 3px;
+    width: 0;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.text-decorate:hover::before{
+    width: 8%;
+}
